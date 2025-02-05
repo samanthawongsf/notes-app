@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poiret One';
     background-color: #f4f4f9;
     color: #333;
     margin: 0;
@@ -25,11 +25,20 @@ body {
 }
 
 /* Card Styling */
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .card {
     background: white;
     border-radius: 8px;
     padding: 15px;
-    margin-bottom: 15pz;
+    margin-bottom: 15px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
